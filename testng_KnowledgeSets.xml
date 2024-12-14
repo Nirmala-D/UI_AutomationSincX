@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases_KnowledgeSets.TC_011_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_003_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_002_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_015_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_008_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_001_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_009_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_006_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_014_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_013_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_007_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_012_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_010_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_004_KnowledgeSets"/>
+      <class name="testcases_KnowledgeSets.TC_005_KnowledgeSets"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,197 @@
+<html>
+<head>
+<title>TestNG:  SignIn_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SignIn_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 25 14:40:49 MDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>180 seconds (180217 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases_SignIn.TC_008_SignIn.f()'><b>f</b><br>Test class: testcases_SignIn.TC_008_SignIn</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testcases_SignIn.TC_008_SignIn.f(TC_008_SignIn.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1500079441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1500079441'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at org.testng.Assert.assertEquals(Assert.java:829)
+	at testcases_SignIn.TC_008_SignIn.f(TC_008_SignIn.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>testcases_SignIn.TC_008_SignIn@37afeb11</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases_SignIn.TC_018_SignIn.tc_018()'><b>tc_018</b><br>Test class: testcases_SignIn.TC_018_SignIn</td>
+<td></td>
+<td>0</td>
+<td>testcases_SignIn.TC_018_SignIn@2a798d51</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_011_SignIn.tc_011()'><b>tc_011</b><br>Test class: testcases_SignIn.TC_011_SignIn</td>
+<td></td>
+<td>1</td>
+<td>testcases_SignIn.TC_011_SignIn@67d48005</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_004_SignIn.tc_004_validEmail()'><b>tc_004_validEmail</b><br>Test class: testcases_SignIn.TC_004_SignIn</td>
+<td></td>
+<td>2</td>
+<td>testcases_SignIn.TC_004_SignIn@59309333</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_010_SignIn.tc_010()'><b>tc_010</b><br>Test class: testcases_SignIn.TC_010_SignIn</td>
+<td></td>
+<td>1</td>
+<td>testcases_SignIn.TC_010_SignIn@9f116cc</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_016_SignIn.tc_016()'><b>tc_016</b><br>Test class: testcases_SignIn.TC_016_SignIn</td>
+<td></td>
+<td>0</td>
+<td>testcases_SignIn.TC_016_SignIn@6572421</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_009_SignIn.tc_009()'><b>tc_009</b><br>Test class: testcases_SignIn.TC_009_SignIn</td>
+<td></td>
+<td>2</td>
+<td>testcases_SignIn.TC_009_SignIn@6b81ce95</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_005_SignIn.tc_005_InvalidEmail()'><b>tc_005_InvalidEmail</b><br>Test class: testcases_SignIn.TC_005_SignIn</td>
+<td></td>
+<td>1</td>
+<td>testcases_SignIn.TC_005_SignIn@5876a9af</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_017_SignIn.tc_017()'><b>tc_017</b><br>Test class: testcases_SignIn.TC_017_SignIn</td>
+<td></td>
+<td>0</td>
+<td>testcases_SignIn.TC_017_SignIn@6d763516</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_003_SignIn.tc_003()'><b>tc_003</b><br>Test class: testcases_SignIn.TC_003_SignIn</td>
+<td></td>
+<td>1</td>
+<td>testcases_SignIn.TC_003_SignIn@12468a38</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_006_SignIn.tc_006()'><b>tc_006</b><br>Test class: testcases_SignIn.TC_006_SignIn</td>
+<td></td>
+<td>1</td>
+<td>testcases_SignIn.TC_006_SignIn@52bf72b5</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_002_SignIn.tc_002_Invalidomainname()'><b>tc_002_Invalidomainname</b><br>Test class: testcases_SignIn.TC_002_SignIn</td>
+<td></td>
+<td>1</td>
+<td>testcases_SignIn.TC_002_SignIn@3e58a80e</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_001_SignIn.tc_001()'><b>tc_001</b><br>Test class: testcases_SignIn.TC_001_SignIn</td>
+<td></td>
+<td>0</td>
+<td>testcases_SignIn.TC_001_SignIn@1aa7ecca</td></tr>
+<tr>
+<td title='testcases_SignIn.TC_007_SignIn.tc_007()'><b>tc_007</b><br>Test class: testcases_SignIn.TC_007_SignIn</td>
+<td></td>
+<td>4</td>
+<td>testcases_SignIn.TC_007_SignIn@515aebb0</td></tr>
+</table><p>
+</body>
+</html>

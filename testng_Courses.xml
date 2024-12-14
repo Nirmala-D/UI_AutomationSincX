@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+       
+      <class name="testcases_Courses.TC_003_Courses"/>
+      <class name="testcases_Courses.TC_006_Courses"/>
+      <class name="testcases_Courses.TC_009_Courses"/>
+      <class name="testcases_Courses.TC_012_Courses"/>
+      <class name="testcases_Courses.TC_015_Courses"/> 
+      <class name="testcases_Courses.TC_018_Courses"/>
+      <class name="testcases_Courses.TC_021_Courses"/>
+      <class name="testcases_Courses.TC_024_Courses"/>
+      <class name="testcases_Courses.TC_027_Courses"/>
+      <class name="testcases_Courses.TC_030_Courses"/>
+      <class name="testcases_Courses.TC_033_Courses"/>
+      <class name="testcases_Courses.TC_036_Courses"/>
+      <class name="testcases_Courses.TC_039_Courses"/>
+      <class name="testcases_Courses.TC_042_Courses"/>
+      <class name="testcases_Courses.TC_045_Courses"/>
+      <class name="testcases_Courses.TC_048_Courses"/> 
+      <class name="testcases_Courses.TC_051_Courses"/>
+      <class name="testcases_Courses.TC_054_Courses"/>
+      <class name="testcases_Courses.TC_057_Courses"/>
+      <class name="testcases_Courses.TC_060_Courses"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

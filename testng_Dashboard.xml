@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Dashboard.Test">
+    <classes>
+      <class name="testcases_Dashboard.TC_011"/>
+      <class name="testcases_Dashboard.TC_012"/>
+      <class name="testcases_Dashboard.TC_001"/>
+      <class name="testcases_Dashboard.TC_020"/>
+      <class name="testcases_Dashboard.TC_015"/>
+      <class name="testcases_Dashboard.TC_004"/>
+      <class name="testcases_Dashboard.TC_005"/>
+      <class name="testcases_Dashboard.TC_013"/>
+      <class name="testcases_Dashboard.TC_002"/>
+      <class name="testcases_Dashboard.TC_014"/>
+      <class name="testcases_Dashboard.TC_003"/>
+      <class name="testcases_Dashboard.TC_008"/>
+      <class name="testcases_Dashboard.TC_017"/>
+      <class name="testcases_Dashboard.TC_006"/>
+      <class name="testcases_Dashboard.TC_018"/>
+    </classes>
+  </test> <!-- Dashboard.Test -->
+</suite> <!-- Suite -->

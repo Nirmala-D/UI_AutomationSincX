@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="SignIn_Test">
+    <classes>
+      <class name="testcases_SignIn.TC_002_SignIn"/>
+      <class name="testcases_SignIn.TC_011_SignIn"/>
+      <class name="testcases_SignIn.TC_010_SignIn"/>
+      <class name="testcases_SignIn.TC_003_SignIn"/>
+      <class name="testcases_SignIn.TC_001_SignIn"/>
+      <class name="testcases_SignIn.TC_004_SignIn"/>
+      <class name="testcases_SignIn.TC_005_SignIn"/>
+      <class name="testcases_SignIn.TC_016_SignIn"/>
+      <class name="testcases_SignIn.TC_009_SignIn"/>
+      <class name="testcases_SignIn.TC_018_SignIn"/>
+      <class name="testcases_SignIn.TC_017_SignIn"/>
+      <class name="testcases_SignIn.TC_006_SignIn"/>
+      <class name="testcases_SignIn.TC_008_SignIn"/>
+      <class name="testcases_SignIn.TC_007_SignIn"/>
+    </classes>
+  </test> <!-- SignIn_Test -->
+</suite> <!-- Suite -->

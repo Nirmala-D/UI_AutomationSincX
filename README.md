@@ -45,7 +45,7 @@ You can find it under:
 4. Supports cross-browser testing (if configured)
 5. Easily maintainable `pom.xml` with dependencies
 
-Benefits of this framework
+Benefits of the BDD + Data-Driven Hybrid Automation Framework
 
 1. Readable, Business-Friendly Test Scenarios (BDD)
 Uses natural language (e.g., Gherkin syntax) to describe test cases (Given-When-Then)

@@ -15,7 +15,7 @@ Prerequisites
 Make sure you have the following installed:
 1. Java (JDK 11 or higher)
 2. Maven
-3. IDE (e.g., IntelliJ IDEA, Eclipse)
+3. IDE: Eclipse
 4. ChromeDriver or relevant browser driver in the system path
 
  How to Run the Tests
@@ -82,11 +82,11 @@ BDD format (e.g., *.feature files) promotes collaboration between QA, dev, and b
 Improves understanding of requirements and test coverage
 
 7. Support for Parallel Execution
-Combine data-driven and BDD execution with TestNG or Cucumber runners for faster test cycles
+Combine POM and BDD execution with TestNG or Cucumber runners for faster test cycles
 Supports parallel threads for running the same test with different data
 
 8. Powerful Reporting
-Integrated with TestNG or Cucumber HTML reports
+Integrated with TestNG HTML reports
 
 Includes test step status, logs, and captured screenshots for failures
 
